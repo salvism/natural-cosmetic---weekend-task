@@ -1,0 +1,76 @@
+.container {
+  max-width: 1140px;
+  display: flex;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* header start */
+nav {
+  padding: 0 1rem;
+  min-height: 70px;
+  border-bottom: 1px solid transparent;
+  background: #f5f3f1;
+}
+.header {
+  display: flex;
+  width: 100%;
+}
+.header-left {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.25rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo img {
+  display: inline;
+  padding-right: 10px;
+  height: 3rem;
+  width: auto;
+}
+.caption {
+  color: inherit;
+  line-height: inherit;
+  font-size: 1.0525rem;
+  font-weight: 700;
+  white-space: normal;
+  vertical-align: -4px;
+  margin-left: 18px;
+  text-transform: uppercase;
+}
+.header-right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.header-right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-right ul li a {
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.667em 1em;
+}
+#icons {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+#facebook {
+  width: 15px;
+}
+#twitter, #instagram {
+  width: 22px;
+}
+header #icons a {
+  padding: 0.8rem;
+  padding-top: 1.5rem;
+}
+/* header end */
